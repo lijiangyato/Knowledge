@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">iaboursmart</string>
+    <string name="headline_title1">图像技术</string>
+    <string name="headline_title2">自然语言</string>
+    <string name="headline_title3">语音技术</string>
+</resources>

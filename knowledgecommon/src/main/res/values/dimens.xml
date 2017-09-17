@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="artificial_characer_fragment">23dp</dimen>
+    <dimen name="artificial_characer_fragment_height">49dp</dimen>
+    <dimen name="text_seiz">15dp</dimen>
+    <dimen name="tabLayout_seiz">26dp</dimen>
+</resources>

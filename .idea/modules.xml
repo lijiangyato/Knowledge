@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Knowledge.iml" filepath="$PROJECT_DIR$/Knowledge.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/knowledgecommon/knowledgecommon.iml" filepath="$PROJECT_DIR$/knowledgecommon/knowledgecommon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/knowledgehacker/knowledgehacker.iml" filepath="$PROJECT_DIR$/knowledgehacker/knowledgehacker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/knowledgeharpy/knowledgeharpy.iml" filepath="$PROJECT_DIR$/knowledgeharpy/knowledgeharpy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/knowledgeiaboursmart/knowledgeiaboursmart.iml" filepath="$PROJECT_DIR$/knowledgeiaboursmart/knowledgeiaboursmart.iml" />
+      <module fileurl="file://$PROJECT_DIR$/knowledgeindex/knowledgeindex.iml" filepath="$PROJECT_DIR$/knowledgeindex/knowledgeindex.iml" />
+      <module fileurl="file://$PROJECT_DIR$/knowledgeitwebgame/knowledgeitwebgame.iml" filepath="$PROJECT_DIR$/knowledgeitwebgame/knowledgeitwebgame.iml" />
+      <module fileurl="file://$PROJECT_DIR$/knowledgeunmanned/knowledgeunmanned.iml" filepath="$PROJECT_DIR$/knowledgeunmanned/knowledgeunmanned.iml" />
+      <module fileurl="file://$PROJECT_DIR$/konwledgethings/konwledgethings.iml" filepath="$PROJECT_DIR$/konwledgethings/konwledgethings.iml" />
+    </modules>
+  </component>
+</project>

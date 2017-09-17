@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Knowledge</string>
+    <!--打开导航抽屉-->
+    <string name="navigation_drawer_open">打开导航抽屉</string>
+    <!--关闭导航抽屉-->
+    <string name="navigation_drawer_close">关闭导航抽屉</string>
+    <string name="open_text">开</string>
+    <string name="close_text">关</string>
+</resources>

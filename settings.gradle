@@ -1,0 +1,1 @@
+include ':app', ':knowledgecommon', ':knowledgehacker', ':konwledgethings', ':knowledgeunmanned', ':knowledgeiaboursmart', ':knowledgeindex', ':knowledgeharpy', ':knowledgeitwebgame'

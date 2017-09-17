@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">artificial</string>
+    <string name="headline_title1">人脸识别</string>
+    <string name="headline_title2">文字识别</string>
+</resources>

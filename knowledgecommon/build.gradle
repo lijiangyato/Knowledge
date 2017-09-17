@@ -1,0 +1,136 @@
+apply plugin: 'com.android.library'
+apply plugin: 'com.neenbedankt.android-apt'
+def dbflow_version = "4.0.2"
+android {
+    compileSdkVersion 25
+    buildToolsVersion "25.0.3"
+
+    defaultConfig {
+        minSdkVersion 21
+        targetSdkVersion 25
+        versionCode 1
+        versionName "1.0"
+
+
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
+        /*路由机制依赖库*/
+        javaCompileOptions {
+            annotationProcessorOptions {
+                arguments = [moduleName: project.getName()]
+            }
+        }
+    }
+
+
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_7
+        targetCompatibility JavaVersion.VERSION_1_7
+    }
+
+
+    sourceSets {
+        main {
+            jniLibs.srcDirs = ['libs']
+        }
+    }
+
+}
+
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    compile 'com.android.support:appcompat-v7:25.3.1'
+    testCompile 'junit:junit:4.12'
+
+    /*数据库依赖库*/
+   // compile 'org.greenrobot:greendao:3.2.2'
+
+    /*网络请求*/
+    compile 'com.squareup.retrofit2:retrofit:2.2.0'
+    /*更新工具依赖库*/
+    compile 'com.qianwen:update-app:3.3.0'
+    /*sqlie数据库依赖工具*//*
+    compile 'com.idescout.sql:sqlscout-server:2.0'
+    *//*无人机依赖库*//*
+    compile 'com.android.support:multidex:1.0.1'
+    *//*进度条*//*
+    compile 'devlight.io:arcprogressstackview:1.0.4'*/
+
+    /*注解*/
+    compile 'com.jakewharton:butterknife:8.8.1'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:8.8.1'
+    /*路由机制依赖库*/
+    compile 'com.alibaba:arouter-api:1.2.1'
+    annotationProcessor 'com.alibaba:arouter-compiler:1.1.2'
+    /*沉浸式布局状态栏依赖库*/
+    compile 'com.jaeger.statusbaruitl:library:1.4.0'
+    /*实现滑动关闭当前Activity依赖库*/
+    compile 'cn.bingoogolapple:bga-swipebacklayout:1.0.8@aar'
+    /* id注解依赖库*/
+    compile 'com.jakewharton:butterknife:7.0.0'
+
+    /*NavigationTabBar*/
+    compile 'devlight.io:navigationtabbar:1.2.5'
+    /*谷歌配色工具*/
+    compile 'com.zzhoujay.materialcolors:materialcolors:1.0.0'
+
+    /*包含标题和字幕的圆形视图*/
+    compile 'com.github.pavlospt:circleview:1.3'
+    /*SmartTabLayout:横向滚动*/
+    compile 'com.nineoldandroids:library:2.4.0'
+    compile 'com.flyco.tablayout:FlycoTabLayout_Lib:2.0.0@aar'
+    /*凤凰拉扯刷新*/
+    //compile 'com.yalantis:phoenix:1.2.3'
+    /*无限周期ViewPager具有双向定位和交互效果*/
+/*
+    compile 'com.github.devlight:infinitecycleviewpager:1.0.2'
+*/
+    /* 图表库（https://github.com/PhilJay/MPAndroidChart）*/
+    //compile 'com.github.PhilJay:MPAndroidChart:v3.0.2'
+    /*循环音乐进度条*/
+    //compile 'com.github.aliab:circular-music-progressbar:v1.2.0'
+    /*上下文菜单*/
+/*
+    compile 'com.yalantis:contextmenu:1.0.7'
+*/
+    /*适配器*/
+    compile 'com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.21'
+    /*FoldingCell for Android*/
+    //compile 'com.ramotion.foldingcell:folding-cell:1.2.1'
+    /*DecoView园画*/
+    //compile 'com.github.bmarrdev:android-DecoView-charting:v1.2'
+    /*底部导航栏*/
+    compile 'devlight.io:navigationtabbar:1.2.5'
+    /*引导页*/
+    compile 'com.ramotion.paperonboarding:paper-onboarding:1.1.1'
+    /*VIEWPAGER*/
+    compile 'com.github.florent37:materialviewpager:1.2.1'
+    /*viewpager*/
+    compile 'com.flaviofaria:kenburnsview:1.0.7'
+    compile 'com.jpardogo.materialtabstrip:library:1.1.0'
+    compile 'com.github.bumptech.glide:glide:3.7.0'
+    /*菜单栏*/
+    compile 'com.github.yalantis:Side-Menu.Android:1.0.1'
+
+    /*DBFlow*/
+    apt "com.github.Raizlabs.DBFlow:dbflow-processor:${dbflow_version}"
+    compile "com.github.Raizlabs.DBFlow:dbflow-core:${dbflow_version}"
+    compile "com.github.Raizlabs.DBFlow:dbflow:${dbflow_version}"
+
+    // sql-cipher database encyrption (optional)
+    compile "com.github.Raizlabs.DBFlow:dbflow-sqlcipher:${dbflow_version}"
+
+
+
+}

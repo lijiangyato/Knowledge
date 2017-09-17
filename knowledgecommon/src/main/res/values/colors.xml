@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--状态标题栏基础颜色-->
+    <color name="app_base_bar_background">#374254</color>
+    <color name="colorFragmenBackground">#efeff4</color>
+    <color name="artificiali_taoobal_background">#fdfdfd</color>
+    <color name="fize_color">#77797b</color>
+    <color name="app_base_recycler_item_line">#f2f2f2</color>
+
+</resources>

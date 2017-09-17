@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/name_linearlayout_id"
+        style="@style/APPlayout">
+
+        <TextView
+            android:id="@+id/name_commontaoobal_id"
+            style="@style/AppTiamt" />
+
+        <android.support.design.widget.TabLayout
+            android:id="@+id/name_tablayout_id"
+            style="@style/APPtayout"
+            app:tabIndicatorColor="#5de1bc"
+            app:tabSelectedTextColor="#4ae2b7"
+            app:tabTextAppearance="@style/APPtayout"
+            app:tabTextColor="#a7a9ac" />
+    </LinearLayout>
+
+</LinearLayout>

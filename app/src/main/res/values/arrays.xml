@@ -1,0 +1,10 @@
+<resources>
+    <string-array name="lijiang">
+        <item>#32df71</item>
+        <item>#11f1b9</item>
+        <item>#64fdd9</item>
+        <item>#1de8b5</item>
+        <item>#55d27b</item>
+        <item>#ecc414</item>
+    </string-array>
+</resources>

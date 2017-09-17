@@ -1,0 +1,29 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Material.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+     <!--样式模板-->
+    <style name="AppTiamt">
+        <item name="android:textColor">@color/fize_color</item>
+        <item name="android:gravity">center|bottom</item>
+        <item name="android:textSize">@dimen/text_seiz</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/artificial_characer_fragment</item>
+    </style>
+
+    <style name="APPlayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/artificial_characer_fragment_height</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:background">@color/artificiali_taoobal_background</item>
+    </style>
+
+    <style name="APPtayout">
+        <item name="android:textSize">12dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/tabLayout_seiz</item>
+    </style>
+
+</resources>
